@@ -1,19 +1,3 @@
-# $eq: Coincide con documentos donde el valor del campo es igual al valor especificado.
-# $ne: Coincide con documentos donde el valor del campo no es igual al valor especificado.
-# $gt: Coincide con documentos donde el valor del campo es mayor que el valor especificado.
-# $gte: Coincide con documentos donde el valor del campo es mayor o igual que el valor especificado.
-# $lt: Coincide con documentos donde el valor del campo es menor que el valor especificado.
-# $lte: Coincide con documentos donde el valor del campo es menor o igual que el valor especificado.
-# $in: Coincide con documentos donde el valor del campo está en el conjunto especificado de valores.
-# $nin: Coincide con documentos donde el valor del campo no está en el conjunto especificado de valores.
-# $exists: Coincide con documentos que tienen el campo especificado.
-# $type: Coincide con documentos donde el tipo de datos del campo coincide con el valor especificado.
-# $regex: Coincide con documentos donde el valor del campo coincide con la expresión regular especificada.
-# $or: Coincide con documentos que cumplen con al menos una de las condiciones especificadas.
-# $and: Coincide con documentos que cumplen con todas las condiciones especificadas.
-# $not: Invierte el efecto de una expresión de consulta que lo precede.
-# $nor: Coincide con documentos que no cumplen con ninguna de las condiciones especificadas.
-
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
